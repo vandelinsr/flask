@@ -224,6 +224,12 @@ Converter types:
 ``path``   like ``string`` but also accepts slashes
 ``uuid``   accepts UUID strings
 ========== ==========================================
+Now head over to `http://127.0.0.1:5000/user/Your name" <http://127.0.0.1:5000/>`_, and you
+should see User and what you entered in place of Your name.  Enter a number where it says inputted number
+'http://127.0.0.1:5000/post/inputted number' and you should see Post and the number entered.  The same goes
+ for the path route 'http://127.0.0.1:5000/path/enter a path'  and it will show Path and the inputted under 
+ enter a path.   
+
 
 Unique URLs / Redirection Behavior
 ``````````````````````````````````
